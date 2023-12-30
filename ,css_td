@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: rgb(184, 180, 180);
+}
+
+#header1{/*ini khas utk text (learnd basic html & css)*/
+  color: rgb(61, 60, 60);
+  margin-left: 10px;
+}
+
+ul{
+display:grid;
+position:fixed;
+border: 3px solid rgb(117, 115, 115);
+background-color: rgb(117, 115, 115);
+width: 35vh;
+height: 100vh;
+margin-top: 0;
+}
+
+
+
+
+
+.nav-link {
+  display: inline-block;
+  margin:10px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 3px 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  nav-right: auto;
+}
+
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.main-section {
+  padding: 20px;
+  margin-left: 35vh;
+}
+
+header { 
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: grey;
+}
+
+code {
+  display: block;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+#filter_text_1 {
+  background-color: #e6e6e6;
+}
+
+#filter_text_2 {
+  background-color: #d9d9d9;
+}
+
+#filter_text_3 {
+  background-color: #cccccc;
+}
+
+#filter_text_4 {
+  background-color: #bfbfbf;
+}
+
+#filter_text_5 {
+  background-color: #b3b3b3;
+}
+
+
+
+
+@media (max-height: 600px) {
+  .main-section{
+    font-size: .7em;
+  }
+}

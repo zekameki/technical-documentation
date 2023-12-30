@@ -1,0 +1,169 @@
+
+
+<!DOCTYPE <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>technical documentation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href=",css_td">
+  </head>
+  <body>
+    <main id="main-doc">
+          <nav id="navbar">
+            
+            <ul>
+              <header id="header1">learn basic<br> html & css</header>
+      <li><a class="nav-link" href="#filter_text_1"> introduction</a></li>
+        <li><a class="nav-link"  href="#filter_text_2">important thinks</a></li>
+          <li><a class="nav-link"  class="nav-3" href="#filter_text_3">code explanation</a></li>
+            <li><a class="nav-link"  class="nav-3" href="#filter_text_4">example html code </a></li>
+              <li><a class="nav-link"  id="nav-5" href="#filter_text_5">example css code</a></li>
+    </ul>        
+    </nav>
+      
+
+    <div>
+        <section class="main-section"id="filter_text_1">
+      
+          <header>
+introduction of HTML and CSS 
+          </header>
+      
+          <p>HTML and CSS basicly a begginer of progamming language you can esaly learn it more than the other progamming languange out their. </p>
+          
+          <h3>HTML</h3>
+          <p>html is standard markup languange for web page HTML stand for Hypertext Markap Language. So it mean that in HTML we gonna write a code for text in web page but you can also make more than that such as put a link, a image and other things. this is basic example of HTML code </p> 
+          
+          <h3>CSS</h3>
+            <p> CSS stand for Cascading Style Sheets css language we use to style a web page. CSS describes how HTML elements should be displayed. This is example of CSS code: </p>
+        
+          </section>
+      
+        <section class="main-section"id="filter_text_2">
+          <header>important things in HTML and CSS code </header>
+        <h3>Declaration HTML code</h3>
+          <p> 
+            Almost every web broweser can read any type of code include HTML. But first you must write the Declaration HTML code first. Here is the example:
+            <code>
+
+            &lt;!DOCTYPE html&gt;<br>
+          &lt;html lang="en"&gt;<br>
+          &lt;head&gt;<br>
+            &lt;meta charset="UTF-8"&gt;<br>
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br>
+            &nbsp;&nbsp;&lt;title&gt;technical Documentation&lt;/title&gt;<br>
+          &lt;/head&gt;<br>
+          &lt;body&gt;<br><br>
+          /*do you code here*/<br><br>  
+          &lt;/body&gt;<br>
+          &lt;/html&gt;<br>
+
+        </code>
+        </p>
+
+          <h3>CSS stlyesheet</h3>
+          <p>Before you do css code make sure that you write link in you HTML to connect into you CSS file. You must write "meta" element  with link "href" you_HTML_name.css </p>
+          <p>second with you csss file you must target one elemnt with this 
+          <code>
+            "elementname" { <br>
+            thestlye: blabla;<br>
+            }
+            </code>  
+            </p>
+          </section>
+      
+        <section class="main-section"id="filter_text_3">
+          <header>HTML code</header>
+          <p>Done with the declaration code focus on the HTML body element. you will write code there every single things pop out to the web page is write inside the body element. body element. HTML (Hypertext Markup Language) elements are the building blocks of web pages, defining the structure and content within a document. Each HTML element is represented by a tag, encapsulating content that is rendered by web browsers. Elements consist of opening tags, content, and closing tags, forming a hierarchical structure that determines the layout and presentation of information on a webpage.
+
+          </p>
+          <p>These elements cover a wide range of functionalities, from headings (&lt;h1&gt; to &lt;h6&gt;) for text hierarchy to hyperlinks (&lt;a&gt;) for navigation. Understanding and utilizing HTML elements is fundamental for anyone aspiring to create web content, as they provide the framework for organizing and presenting information in a clear and meaningful way.</p>
+
+
+          </section>
+      
+        <section class="main-section"id="filter_text_4">
+          <header>CSS Element Targeting:
+          </header>
+          
+          <p>CSS element targeting is the process of selecting and styling specific HTML elements within a web page. This is achieved using CSS selectors, which can pinpoint elements based on their tag names, classes, IDs, attributes, or even their position in the document structure. By associating styles with specific elements, developers can customize the appearance of their web pages with precision.
+
+          </p>
+          <p>In practice, a CSS selector might be as straightforward as targeting all paragraphs (p) on a page or as specific as styling a particular element with a unique identifier (ID). Selectors enable the application of styles universally across multiple elements or narrowly focused on individual elements. This flexibility is crucial for creating visually cohesive and tailored designs, providing developers with granular control over the presentation of content on a website.
+
+
+
+
+
+          </p>
+          </section>
+      
+        <section class="main-section" id="filter_text_5">
+          <header>Simple example of HTML code</header>
+          <h1>3 basic HTML code:</h1>
+          <p>
+            element
+            </p>
+            <code>
+              &lt;h1&gt; &lt;/h1&gt; <br>
+              &lt;p&gt; &lt;/p&gt;
+            </code>
+
+            <p>
+            attributes
+            </p>
+            <code>
+              &lt;a href="https://www.example.com"&gt;&lt;/a&gt; <br>/*if you do this code it's will direcly go to link that you put*/
+            </code>
+
+            <p>
+            DIV
+          </p>
+          <code>
+            &lt;div class="container"&gt; <br>
+&lt;p class="anythings you want to write about"&gt;&lt;/p&gt; 
+            <br>&lt;/div&gt;<br>/*DIV make you more flexsible in css code*/
+          </code>
+          </section>
+          
+<section class="main-section">
+  <header class="word-last">Simple example of CSS code</header>
+  <h1 class="word-last">This is how to stlye CSS base on html above</h1>
+  <p class="word-last">element</p>
+  <code class="code_css">
+    h1 { <br>
+          color: blue;
+    <br>}
+    <br>/*this will make the text blue color*/
+    <br>
+
+     <br>p {
+      <br>font-size: 5rem; }<br>/*this will control you text sizing*/
+     
+</code>
+  
+  <p class="word-last">attribute</p>
+  <code class="code_css">
+    a:hover { <br>
+      text-decoration: underline;<br>}<br> /*The attribute selector (a:hover) is used to style a link when it's hovered over.*/
+    
+  </code>
+  
+  <p class="word-last">DIV</p>
+  <code class="code_css">
+    .container { <br>
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 20px;
+          <br>} <br> /*The class selector (.container) is used to style a &lt;div&gt; with a specific class */ 
+  </code>
+
+</section>
+</div>
+      </main>
+    <script src="" async defer></script>
+  </body>
+</html>
